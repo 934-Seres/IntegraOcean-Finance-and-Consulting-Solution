@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://934-seres.github.io/IntegraOcean-Finance-and-Consulting-Solution/sitemap.xml
