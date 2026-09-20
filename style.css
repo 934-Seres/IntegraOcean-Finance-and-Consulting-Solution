@@ -49,7 +49,7 @@ a {
     width: min(1120px, calc(100% - 40px));
     margin: auto;
 }
-p, #plan {
+#plan {
     color: red;
     font-size: 20px;
     padding-bottom: 20px;
