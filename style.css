@@ -188,6 +188,13 @@ h2 {
     margin: 24px 0 30px;
 }
 
+.hero-copy h1 {
+    font-size: clamp(2.4rem, 4.5vw, 4.2rem);
+    line-height: 1.08;
+    letter-spacing: -0.035em;
+    max-width: 760px;
+}
+
 
 /* =========================================
    HERO BUTTONS
@@ -818,7 +825,13 @@ h2 {
     }
 
 }
-
+@media (max-width: 768px) {
+    .hero-copy h1 {
+        font-size: clamp(2.15rem, 8vw, 3rem);
+        line-height: 1.1;
+        letter-spacing: -0.025em;
+    }
+}
 
 /* =========================================
    RESPONSIVE — MOBILE
